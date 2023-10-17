@@ -19,7 +19,9 @@ public class GameMain {
             int amountRounds = Integer.parseInt(args[2]);
 
             if (amountRounds < 1 || amountRounds > 10) {
-                throw new IllegalArgumentException();
+                System.out.println("Enter: first name, second name, number of rounds(1-10).");
+                throw new 
+                        //IllegalArgumentException();
             }
 
             DiceGame diceGame = new DiceGame(name1, name2);
