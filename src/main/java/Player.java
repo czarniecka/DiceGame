@@ -7,6 +7,7 @@ public class Player {
 
     /**
      * Konstruktor klasy Player.
+     *
      * @param name imię gracza
      */
     public Player(String name) {
@@ -15,6 +16,7 @@ public class Player {
 
     /**
      * Metoda zwracająca imię gracza.
+     *
      * @return imię gracza
      */
     public String getName() {
@@ -22,6 +24,7 @@ public class Player {
     }
     /**
      * Metoda zwracająca wynik gracza.
+     *
      * @return wynik gracza
      */
     public int getResult() {

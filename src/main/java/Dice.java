@@ -6,10 +6,11 @@ import java.util.Random;
 public class Dice {
     /**
      * Metoda imitująca rzut sześcienną kostką.
+     *
      * @return losowa liczba oczek na kostce po rzucie
      */
     public int throwDice() {
         Random amountPoints = new Random();
-        return amountPoints.nextInt(6)+1;
+        return amountPoints.nextInt(6) + 1;
     }
 }
