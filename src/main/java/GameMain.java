@@ -11,7 +11,7 @@ public class GameMain {
     public static void main(String[] args) {
         try {
             if (args.length != 3) {
-                System.out.println("Enter: first name, second name, number of rounds(1-10).");
+                System.out.println("Enter: first name, second name, number of rounds(1-10)");
                 return;
             }
             String name1 = args[0];
